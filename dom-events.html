@@ -11,7 +11,7 @@
 <body>
     <h1 style="text-align: center;">Document-Object-Model</h1>
 
-    <!-- using onclick function -->
+    <!----------------- using onclick function ------------------>
     <button onclick="document.body.style.backgroundColor = 'yellow' ">Click Me: Yellow</button>
     <button onclick="makeRed()">Click Me: Red</button>
     <button id="make-blue">Click Me: Blue</button>
@@ -29,6 +29,42 @@
     <p id="get-text">Change Your Text</p>
     <input id="name-field" type="text">
     <button id="update-name">Update</button>
+
+
+    <!------------------ textarea comment append ---------------->
+
+    <section>
+        <h2>Blog Add Section</h2>
+        <div id="comment-container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ipsa consequatur facere deserunt non
+                sit voluptas doloribus nesciunt placeat ex molestiae, aut harum porro quisquam, eum accusamus. Rem,
+                obcaecati ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ipsa consequatur facere deserunt non
+                sit voluptas doloribus nesciunt placeat ex molestiae, aut harum porro quisquam, eum accusamus. Rem,
+                obcaecati ratione.</p>
+            <p id="secret-info">
+                <b><u>Will Be Deleted</u>:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ipsa
+                consequatur
+                facere deserunt non
+                sit voluptas doloribus nesciunt placeat ex molestiae, aut harum porro quisquam, eum accusamus. Rem,
+                obcaecati ratione.
+            </p>
+        </div>
+
+        <div>
+            <textarea name="" id="new-comment" cols="60" rows="5"></textarea>
+            <br>
+            <button id="submit-comment">Post</button>
+            <input id="delete-confirm" type="text" placeholder="Please,Type delete">
+            <button id="delete-btn" disabled>Delete</button>
+        </div>
+
+    </section>
+
+
+
+
+
 
 
     <!-- js script link  -->
